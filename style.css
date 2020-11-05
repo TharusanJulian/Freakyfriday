@@ -42,12 +42,14 @@ nav{
     list-style: none;
 }
 
-
+.container{
+  margin: 0;
+}
 
  .centered {
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -56,13 +58,13 @@ nav{
     letter-spacing: 2px;
     font-weight: bold;
     color: black;
-    padding-right: 1px;
+    padding-top: 50px;
   }
 
   .bakgrunnfarge{
-    background-color: whitesmoke;
-    height: 80vh;
-    margin-bottom: auto;
+    background-color: coral;
+      height: 100%;
+      margin-top: 0;
   }
 
 
